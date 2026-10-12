@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <PackageReference Include="Grpc.AspNetCore" Version="2.76.0" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.84.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -19,6 +19,12 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Aspire\src\ServiceDefaults\ServiceDefaults.csproj" />
     <ProjectReference Include="..\..\..\..\BuildingBlocks\src\**\*.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Figgle" Version="0.6.6" />
+    <PackageReference Update="Figgle.Fonts" Version="0.6.6" />
+    <PackageReference Update="Grpc.Net.ClientFactory" Version="2.84.0" />
   </ItemGroup>
 
 </Project>

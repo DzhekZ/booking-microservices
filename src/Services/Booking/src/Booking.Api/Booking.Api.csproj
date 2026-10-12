@@ -2,4 +2,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Booking\Booking.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Figgle" Version="0.6.6" />
+    <PackageReference Update="Figgle.Fonts" Version="0.6.6" />
+    <PackageReference Update="Grpc.Net.ClientFactory" Version="2.84.0" />
+  </ItemGroup>
 </Project>

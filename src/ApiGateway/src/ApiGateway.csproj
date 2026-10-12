@@ -3,4 +3,9 @@
     <ProjectReference Include="..\..\BuildingBlocks\src\**\*.csproj" />
     <PackageReference Include="Yarp.ReverseProxy" Version="2.3.0" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Figgle" Version="0.6.6" />
+    <PackageReference Update="Figgle.Fonts" Version="0.6.6" />
+    <PackageReference Update="Grpc.Net.ClientFactory" Version="2.84.0" />
+  </ItemGroup>
 </Project>
